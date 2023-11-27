@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "composite": false,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "allowJs": true,
+    "strictFunctionTypes": false,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSources": false,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "preserveWatchOutput": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "removeComments": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["dom", "esnext"],
+    "types": [
+      "vite/client",
+      "@vben/constants",
+      "@vben/types/shims/pinia",
+      "@vben/types/shims/vue-router",
+    ]
+  },
+  "include": [
+    "src",
+    "mock",
+    "vite.config.ts",
+    "../../node_modules/.pnpm/vue@3.2.45/node_modules/vue/macros-global.d.ts"
+  ]
+}
